@@ -12,7 +12,7 @@
 
 ## Требования
 
-- Unreal Engine 5.3
+- Unreal Engine 5.3 (пин версии — смена только решением Кости, запись здесь)
 - Git
 - [Git LFS](https://git-lfs.com/)
 
