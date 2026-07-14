@@ -1,0 +1,41 @@
+{
+  "npc_id": "starosta_ivan",
+  "lines": [
+    {
+      "line_id": "greeting",
+      "speaker": "starosta_ivan",
+      "text": "Не ходи ночью к реке, чужак. Не одна ты слышишь, как она зовёт.",
+      "conditions": {},
+      "responses": [
+        { "text": "Что за голос?", "goto": "about_voice" },
+        { "text": "Мне всё равно.", "goto": "dismiss" }
+      ],
+      "notes": "Настороженно, вполголоса — оглядывается на воду."
+    },
+    {
+      "line_id": "about_voice",
+      "speaker": "starosta_ivan",
+      "text": "Голос реки. Она забрала уже троих. Последний раз — прошлой весной.",
+      "conditions": {},
+      "responses": [
+        { "text": "Расскажи подробнее.", "goto": "farewell" }
+      ]
+    },
+    {
+      "line_id": "dismiss",
+      "speaker": "player",
+      "text": "Мне всё равно.",
+      "conditions": {},
+      "responses": [
+        { "text": "Продолжить.", "goto": "farewell" }
+      ]
+    },
+    {
+      "line_id": "farewell",
+      "speaker": "starosta_ivan",
+      "text": "Как знаешь. Только не говори, что не предупреждал.",
+      "conditions": {},
+      "responses": []
+    }
+  ]
+}

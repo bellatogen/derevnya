@@ -1,0 +1,16 @@
+# Unreal Engine 5
+Village/Saved/
+Village/Intermediate/
+Village/DerivedDataCache/
+Village/Binaries/
+Village/Build/
+
+# Visual Studio / Rider
+.vs/
+*.sln
+.idea/
+*.VC.db
+
+# OS
+.DS_Store
+Thumbs.db

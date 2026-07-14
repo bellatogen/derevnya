@@ -13,3 +13,9 @@
 *.dll filter=lfs diff=lfs merge=lfs -text
 *.dmp filter=lfs diff=lfs merge=lfs -text
 *.bin filter=lfs diff=lfs merge=lfs -text
+
+# Текстовые форматы — нормализация построчных окончаний
+*.md text=auto
+*.json text=auto
+*.ini text=auto
+*.uproject text=auto
